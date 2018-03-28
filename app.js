@@ -8,8 +8,6 @@ const mongoose = require('mongoose')
 require('dotenv').config()
 const cors = require('cors')
 
-
-
 mongoose.connect('mongodb://agnynureza:12345@ds213229.mlab.com:13229/ecommercedb')
 
 const users     = require('./routes/users');
